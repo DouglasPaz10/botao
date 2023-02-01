@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    background-color:#7C3B80 ;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+    flex-direction: row-reverse;
+}
+
+
+
+.texto{
+    display: flex;
+    background-color: #FCC2FF;
+    margin-left: -30px;
+    flex-flow: column;
+    padding: 3%;
+    border-radius: 30px;
+    gap: 1em;
+    box-shadow: 2px 4px 30px 0px #48244a;
+    min-width: 200px;
+    min-height: 70px;
+}
+
+
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    gap: 1%;
+    
+}
+
+button{
+     border-radius: 3em;
+}
+
+button:hover{
+    background-color: aliceblue;
+    
+
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 1000px;
+    min-height: 500px;
+
+}
+
+.img1{
+    position: relative;
+    max-width: 80px;
+    margin-left: -30px;
+    margin-right: 20px;
+
+}
+
+.raiva{
+    width: 100%;
+}
+
+.img2{
+    position: relative;
+    max-width: 70px;
+    order: -1;
+    margin-left: -25px;
+
+}
+
+#nao{
+    position: relative;
+    
+}
+
+.texto p{
+    text-align: center;
+
+}
