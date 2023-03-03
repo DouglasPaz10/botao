@@ -15,10 +15,8 @@ function sim(){
 
 function sumir(){
     let botao = document.getElementById("nao")
-    let response = getRandomInt()
-    botao.style.cssText = `left:${response}px;right:${response}px;top:${response};bottom:${response}px`
-
-    
-
+    let responsex = getRandomInt()
+    let responsey = getRandomInt()
+    botao.style.cssText = `left:${responsex}px;top:${responsey}px;`
 
 }
